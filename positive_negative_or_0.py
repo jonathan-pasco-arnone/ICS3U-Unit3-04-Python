@@ -12,6 +12,7 @@ def main():
     print("This program determines whether a"
           "number is positive, negative or 0")
     number = int(input("Please enter a number: "))
+    
     if (number == 0):
         print("The number you entered was 0")
     elif (number > 0):
